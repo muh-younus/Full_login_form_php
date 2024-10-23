@@ -9,6 +9,12 @@
 </head>
 <body>
 
+<?php
+
+include "connection.php";
+
+?>
+
 
     <div class="container-fluid cont1 ">
 
