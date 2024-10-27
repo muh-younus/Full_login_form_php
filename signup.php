@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     
@@ -13,14 +14,17 @@
 
 
 <main>
+  <div class="head">
+<h2>Create a new account</h2>
+<p>it's quick and easy</p>
+</div>
+<hr>
 
 <form action="">
 
-<h2>Create a new account</h2>
-<p>it's quick and easy</p>
-<hr>
-<input type="text">
-<input type="text">
+
+<input type="text" placeholder="First Name">
+<input type="text" placeholder="Last Name">
 <p>Date of birth</p>
 <select name="day">
     <option value="1" selected>1</option>
@@ -50,11 +54,26 @@
   </select>
 
   <p>Gender</p>
-  <label>
+  <label class="radio-button">
     <input type="radio" name="gender" value="female">
     Female
   </label>
+  <label class="radio-button">
+    <input type="radio" name="gender" value="female">
+    Male
+  </label>
+  <label class="radio-button">
+    <input type="radio" name="gender" value="female">
+    Custom
+  </label>
 
+  <input type="text " placeholder="Mobile number or email address">
+  <input type="text " placeholder="New password">
+  <p>People who use our service may have uploaded your contact information to Facebook <a href="#">Learn more</a></p>
+  <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time</p>
+
+  <button>Sign Up</button>
+  <p>Already have an account</p>
 
 </form>
 
