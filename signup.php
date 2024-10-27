@@ -25,8 +25,8 @@
 
 <input type="text" placeholder="First Name">
 <input type="text" placeholder="Last Name">
-<p>Date of birth</p>
-<select name="day">
+<p class="p1">Date of birth</p>
+<select class="choice1" name="day">
     <option value="1" selected>1</option>
     <option value="2" selected>2</option>
     <option value="3" selected>3</option>
@@ -35,7 +35,7 @@
     <!-- Other options for days -->
   </select>
 
-  <select name="month">
+  <select  class="choice"  name="month">
     <option value="Oct" selected>Jan</option>
     <option value="Oct" selected>Feb</option>
     <option value="Oct" selected>March</option>
@@ -44,7 +44,7 @@
     <!-- Other options for months -->
   </select>
 
-  <select name="year">
+  <select  class="choice"  name="year">
     <option value="2024" selected>2024</option>
     <option value="2025" selected>2025</option>
     <option value="2026" selected>2026</option>

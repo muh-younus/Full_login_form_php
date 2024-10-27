@@ -43,6 +43,30 @@ main .head{
     font-size: 20px;
 }
 
+form{
+
+    padding: 10px 10px;
+}
+
+form input{
+
+    padding: 10px 2px;
+    margin-bottom: 7px;
+}
+
+form .p1{
+
+    font-size: 12px;
+}
+
+form .choice1{
+
+    padding: 10px 27px;
+    text-align: center;
+
+
+}
+
 
 .radio-button{
 
