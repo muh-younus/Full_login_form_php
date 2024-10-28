@@ -35,7 +35,7 @@
     <!-- Other options for days -->
   </select>
 
-  <select  class="choice"  name="month">
+  <select  class="choice1"  name="month">
     <option value="Oct" selected>Jan</option>
     <option value="Oct" selected>Feb</option>
     <option value="Oct" selected>March</option>
@@ -44,7 +44,7 @@
     <!-- Other options for months -->
   </select>
 
-  <select  class="choice"  name="year">
+  <select  class="choice1"  name="year">
     <option value="2024" selected>2024</option>
     <option value="2025" selected>2025</option>
     <option value="2026" selected>2026</option>
